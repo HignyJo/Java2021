@@ -1,6 +1,6 @@
-package be.technifutur.menu.actions;
+/*package be.technifutur.menu.actions;
 
-3 import java.util.Arrays;
+import java.util.Arrays;
 
 public class Pendu {
     public static void run() {
@@ -204,3 +204,4 @@ public class Pendu {
     
     }    
 }
+*/

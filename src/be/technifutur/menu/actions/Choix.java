@@ -23,10 +23,7 @@ public class Choix {
             System.out.println();
 
             switch (choix) {
-                case 0:{
-                    System.out.println("Au revoir !");
-                    break;
-                }
+                case 0:{break;}
                 case 1:{
                     new AffichageSapin();
                     AffichageSapin.run();
@@ -65,6 +62,8 @@ public class Choix {
                 repeat = sc.nextInt();
             }
         }
+
+        System.out.println("Au revoir !!");
         
     }
 }
