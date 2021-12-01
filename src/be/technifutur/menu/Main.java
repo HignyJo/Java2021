@@ -7,8 +7,11 @@ public class Main {
 	
 	public static void main(String[] args){
 	
-		new Helloworld();
-		Helloworld.run();
+		//new Helloworld();
+		//Helloworld.run();
+
+		new Choix();
+		Choix.run();
 
 	}
 }
