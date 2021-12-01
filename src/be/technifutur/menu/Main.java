@@ -7,11 +7,10 @@ public class Main {
 	
 	public static void main(String[] args){
 	
-		//new Helloworld();
-		//Helloworld.run();
-
-		new Choix();
-		Choix.run();
+		Helloworld ex = new Helloworld();
+		Thread t1 = new Thread(ex);
+		t1.start();
+		System.out.println("Hi");
 
 	}
 }
